@@ -1,0 +1,44 @@
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+resources/application.properties
+
+application-API-KEY.properties
+application.properties
+
+# ignore properties file
+application-API-KEY.properties
+application.properties
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+.properties
+resources/application-API-KEY.properties 
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+resources/application.properties
+application-API-KEY.properties.properties
+application-API-KEY.properties
+application.properties
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
